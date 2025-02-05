@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 500px;
+            height: 500px;
+            position: relative;
+            background-color: antiquewhite;
+            border-radius: 15px;
+        }
+        #animate{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: yellowgreen;
+            border-radius: 15px;
+            border: 2px solid turquoise;
+        }
+    </style>
+</head>
+<body>
+    <h1>animation</h1>
+    <div id="container">
+        <div id="animate"></div>
+    </div>
+    <button id="click" onclick="Move()">MOVE</button>
+    <button id="click" onclick="Move2()">MOVE BACK</button>
+
+</body>
+    <script src="./JS/animate.js"></script>
+</html>
